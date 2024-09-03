@@ -26,5 +26,7 @@ def post_to_webhook_site(url=URL) -> bool:
 if __name__ == "__main__":
     print(f"Hello from {__name__}")
     post_to_webhook_site()
+    print(f"Please check the URL:\n{URL}")
+    print("It should have received a POST request with a random word and timestamp")
     print(f"{__name__}is done executing")
 

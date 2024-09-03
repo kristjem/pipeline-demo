@@ -2,7 +2,7 @@
 This is just a simple app for learning to set up a CI/CD pipeline.<br>
 
 ### Prerequisites
-* Github Action Secret variables must be set up in Github, see docker-image.yml in the .github\workflows directory
+* Github Actions Secret variables must be set up in Github, see docker-image.yml in the .github\workflows directory
 * Docker Desktop installed, or somewhere else to run the Docker container
 
 ### How to trigger the pipeline / Github Actions
